@@ -1,0 +1,63 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: brown;
+    /* background-image: url("/Challenge/Encriptador_de_Texto/images/jpk2t95lhvokd7g61221.webp"); */
+    background-color: rgb(221, 217, 236);    
+}
+
+h1{
+    text-transform: uppercase;    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    gap: 10px;
+}  
+
+#textarea2{
+    background-image: url("/Challenge/Encriptador_de_Texto/images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #0725d4;
+    text-decoration: solid;
+    text-align: justify;
+}
+
+#textarea2:focus{
+    background-image: none;
+}
+
+textarea{
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 25px;
+    text-align: center;
+    opacity: 1;
+    border-radius: 10px;
+    color: black;
+
+}
+
+#button1,#button2,#button3{
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.3em;
+    border-radius: 10px;
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#button1{
+    background-color: #086910;
+}
+#button2{
+    background-color: #ca1010;
+}
+#button3{
+    background-color: #0725d4;
+}
+
+
